@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "xiala"; /* Project id 2581947 */
+  src: url('iconfont.woff2?t=1622448105623') format('woff2'),
+       url('iconfont.woff?t=1622448105623') format('woff'),
+       url('iconfont.ttf?t=1622448105623') format('truetype');
+}
+
+.icon-xiala {
+  font-family: "xiala" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xiala:before {
+  content: "\e682";
+}
+
+@font-face {
+  font-family: 'fangzi';
+  /* Project id 2572116 */
+  src: url('http://at.alicdn.com/t/font_2572116_nbshymqke1h.woff2?t=1622000514262') format('woff2'),
+      url('http://at.alicdn.com/t/font_2572116_nbshymqke1h.woff?t=1622000514262') format('woff'),
+      url('http://at.alicdn.com/t/font_2572116_nbshymqke1h.ttf?t=1622000514262') format('truetype');
+}
+
+
+.icon-fangzi {
+  font-family: 'fangzi';
+  font-size: 100px;
+  background-color: pink;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+

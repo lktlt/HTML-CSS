@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- webM,Ogg mp4支持三种格式，尽量使用mp4格式 -->
+    <style>
+        video {
+            width: 100%;
+            margin: 100px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- preload="auto" 预先加载，有autoplay就忽略他 
+        poster:设置预览的图片
+        controls-播放暂停进度条等，显示样式是各浏览器自带的
+        autoplay-自动播放，ie中自动放，谷歌需加muted静音播放，
+        loop-循环播放
+    -->
+    <video src="media/mi.mp4" autoplay="autoplay" muted="muted" controls="controls" loop="loop" poster="media/mi9.jpg">
+        <!-- 低版本兼容性 -->
+        <!-- <source src="media/mi.mp4" type="video/mp4">  -->
+        <!-- <source src="media/mi.ogg" type="video/ogg">  -->
+    </video>
+</body>
+
+</html>
