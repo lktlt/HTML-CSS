@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            perspective: 600px;
+        }
+
+        div img {
+            float: left;
+            margin-left: 100px;
+        }
+
+        .img1 {
+            display: block;
+            margin: 100px auto;
+            transition: all 2s;
+        }
+
+        .img1:hover {
+            /* transform: rotateX(-360deg); */
+            transform: rotate3d(1, 1, 0, 45deg)
+        }
+
+        .img2 {
+            display: block;
+            margin: 100px auto;
+            transition: all 2s;
+        }
+
+        .img2:hover {
+            transform: rotateY(-360deg);
+        }
+
+        .img3 {
+            display: block;
+            margin: 100px auto;
+            transition: all 2s;
+        }
+
+        .img3:hover {
+            transform: rotateZ(-360deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img class="img1" src="images/pig.jpg" alt="">
+        <img class="img2" src="images/pig.jpg" alt="">
+        <img class="img3" src="images/pig.jpg" alt="">
+    </div>
+
+</body>
+
+</html>
